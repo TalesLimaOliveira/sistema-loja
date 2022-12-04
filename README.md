@@ -1,6 +1,5 @@
 # Sistema de Loja de conveniência
-Implementação de um projeto de sistema de loja de conveniência usando árvores binárias para a matéria de _estrutura de dados ministrada pelo Profº. [Fontes](https://fontes.pro.br) - 2022-23/2._
-Por Tales L. Oliveira
+Implementação de um projeto de sistema de loja de conveniência usando árvores binárias para a matéria de _estrutura de dados ministrada pelo Profº. [Fontes](https://fontes.pro.br) - 2022-23/2._ Por Tales L. Oliveira.
 
 ## Linguagem utilizada:
 * Linguagem C - (gcc version: 8.1.0)
