@@ -1,10 +1,13 @@
 # Sistema de Loja de conveniência
-Implementação de um projeto de sistema de loja de conveniência usando árvores binárias para a matéria de _estrutura de dados ministrada pelo Profº. [Fontes](https://fontes.pro.br) - 2022-23/2._ Por Tales L. Oliveira.
+Implementação de um projeto de sistema de loja de conveniência usando árvores binárias para a matéria _Estrutura de Dados ministrada pelo Profº. [Fontes](https://fontes.pro.br) - 2022-23/2._ __Por Tales L. Oliveira.__
 
-## Linguagem utilizada:
+### Linguagem utilizada:
 * Linguagem C - (gcc version: 8.1.0)
 
-**Funcionalidades principais:** 
+### Compilação do programa:
+
+
+### **Funcionalidades principais:** 
 * Controle de login
 * Cadastro de produtos
 * Alteração de produtos
@@ -13,37 +16,38 @@ Implementação de um projeto de sistema de loja de conveniência usando árvore
 * Venda de produtos
 * Relatório por tipo de produto
 * Relatórios de vendas
+* Salvamento na memoria, mesmo após o encerramento do programa
 
-## Lista de atividades com uma provável data de entrega
-
+## Lista de atividades:
 Prazo Final: 16/01/23.
 
-### Etapa 01:
-- [ ] Início das bibliotecas.h
-- [ ] Controle de login
+### Etapa 01: (Implementação e organização do projeto)
+- [ ] Início dos includes.h
+- [ ] Início dos sources.c
+- [ ] Implementação da árvore binaria.
+
+### Etapa 02: (Funcionalidades basicas do projeto parte 1)
 - [ ] Cadastro de Produtos
 - [ ] Busca de Produtos
-- _Data prevista:_ 19/12/22
-
-### Etapa 02:
 - [ ] Alteração de produtos
 - [ ] Exclusão de produtos
-- [ ] Venda de produtos
-- _Data prevista:_ 26/12/22.
 
-### Etapa 03:
-- [ ] Alteração de produtos
-- [ ] Exclusão de produtos
+### Etapa 03: (Funcionalidades basicas do projeto parte 2)
 - [ ] Venda de produtos
 - [ ] Relatórios de vendas
-- [ ] Relatório por tipo de produto
-- _Data prevista:_ 02/01/23.
+- [ ] Relatório por tipo
+- [ ] Controle de login
 
-### Etapa 04: (Qualidade de vida do sistema)
+### Etapa 04: (Implementação de memoria do sistema)
+- [ ] Leitura e escrita de aquivos.txt
+- [ ] Salvamento de logins e produtos
+- [ ] Escolha para carregar, excluir ou começar nova loja
+- [ ] Escolha para excluir ou criar novos logins
+
+### Etapa 05: (Melhora na qualidade de vida do sistema)
 - [ ] Interface gráfica mais intuitiva e agradável 
 - [ ] Verificação de entradas do usuário
 - [ ] Correção de segurança
 - [ ] Realização de testes
 - [ ] Correção de bugs
 - [ ] Implementação do sistema
-- _Data prevista:_ 16/01/23.

@@ -1,21 +1,18 @@
-/**
- * @file colors.h
- * @brief To change the colors on terminal
- */
-
 #ifndef COLORS_H
 #define COLORS_H
 
 #define clear_screen() system("cls") //Clear the terminal screen on windows
 
-#define C_RESET "\x1B[0m" //Reset to the original colors
-#define C_BOLD "\x1b[1m"
-#define C_FAINT "\x1b[2m"
-#define C_UNDER "\x1b[4m"
-#define C_BLINK "\x1b[5m"
-#define C_INVERSE "\x1b[7m"
-#define C_HIDE  "\x1b[8m"
-#define C_STRIKE "\x1b[9m"
+#define C_RESET "\x1B[0m"   //Reset to the original colors
+#define C_BOLD "\x1b[1m"    //Bold the letter
+#define C_FAINT "\x1b[2m"   //Faint the letter
+#define C_ITALIC "\x1b[3m"  //Italic the letter
+#define C_UNDER "\x1b[4m"   //Underline the letter
+#define C_BLINK "\x1b[5m"   //Blink the letter
+#define C_6 "\x1b[6m"       //
+#define C_INVERSE "\x1b[7m" //Inverse BG color with the letter
+#define C_HIDE  "\x1b[8m"   //Hide the letter in the terminal
+#define C_STRIKE "\x1b[9m"  //Strike through the letter
 
 
 //REGULAR LETTERS
@@ -47,7 +44,6 @@
 #define BG_MAG "\x1b[1;45m" //Magenta
 #define BG_CYN "\x1b[1;46m" //Cyan
 #define BG_WHT "\x1b[1;47m" //White
-
 
 
 #endif
